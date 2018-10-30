@@ -27,6 +27,7 @@ setup(
 
     packages=find_packages(exclude=['tests', 'tests.*', '*.tests', '*.tests.*']),  # Required
 
+    # change to tensorflow-gpu
     install_requires=[
         'tensorflow>=1.7,<1.8',
         'Pillow>=4.2.1',

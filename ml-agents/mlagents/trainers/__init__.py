@@ -11,3 +11,6 @@ from .ppo.trainer import *
 from .ppo.policy import *
 from .exception import *
 from .policy import *
+from .bc_custom.models import *
+from .bc_custom.trainer import *
+from .bc_custom.policy import *

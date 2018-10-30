@@ -15,6 +15,7 @@ from mlagents.envs.exception import UnityEnvironmentException
 
 from mlagents.trainers.ppo.trainer import PPOTrainer
 from mlagents.trainers.bc.trainer import BehavioralCloningTrainer
+from mlagents.trainers.bc_custom.trainer import BehavioralCloningCustomTrainer
 from mlagents.trainers.meta_curriculum import MetaCurriculum
 from mlagents.trainers.exception import MetaCurriculumError
 
@@ -58,6 +59,7 @@ class TrainerController(object):
             self.docker_training = False
             self.trainer_config_path = trainer_config_path
             self.model_path = './models/{run_id}'.format(run_id=run_id)
+            self.model_path_imitation = './models/bc_train'.format(run_id=run_id)
             self.curriculum_folder = curriculum_folder
             self.summaries_dir = './summaries'
         else:
@@ -99,6 +101,8 @@ class TrainerController(object):
                                     seed=self.seed,
                                     docker_training=self.docker_training,
                                     no_graphics=no_graphics)
+        self.newLoadMode = False
+        self.continueTrainWithPPOAfterBC = False
         if env_path is None:
             self.env_name = 'editor_' + self.env.academy_name
         else:
@@ -149,13 +153,13 @@ class TrainerController(object):
                 if scope == '/':
                     scope = ''
                 scopes += [scope]
-                if self.trainers[brain_name].parameters['trainer'] \
-                        == 'imitation':
+                if self.trainers[brain_name].parameters['trainer'] == 'imitation':
                     nodes += [scope + x for x in ['action']]
+                elif self.trainers[brain_name].parameters['trainer'] == 'imitationCustom':
+                    nodes += [scope + x for x in ['action', 'value_estimate', 'action_probs']]
                 else:
                     nodes += [scope + x for x in ['action', 'value_estimate',
-                                                  'action_probs',
-                                                  'value_estimate']]
+                                                  'action_probs']]
                 if self.trainers[brain_name].parameters['use_recurrent']:
                     nodes += [scope + x for x in ['recurrent_out',
                                                   'memory_size']]
@@ -228,6 +232,11 @@ class TrainerController(object):
                     sess, self.env.brains[brain_name],
                     trainer_parameters_dict[brain_name], self.train_model,
                     self.seed, self.run_id)
+            elif trainer_parameters_dict[brain_name]['trainer'] == 'imitationCustom':
+                self.trainers[brain_name] = BehavioralCloningCustomTrainer(
+                    sess, self.env.brains[brain_name],
+                    trainer_parameters_dict[brain_name], self.train_model,
+                    self.seed, self.run_id)
             elif trainer_parameters_dict[brain_name]['trainer'] == 'ppo':
                 self.trainers[brain_name] = PPOTrainer(
                     sess, self.env.brains[brain_name],
@@ -241,6 +250,21 @@ class TrainerController(object):
                                                 'an unknown trainer type for '
                                                 'brain {}'
                                                 .format(brain_name))
+
+    def optimistic_restore_vars(self, model_checkpoint_path):
+        reader = tf.train.NewCheckpointReader(model_checkpoint_path)
+        saved_shapes = reader.get_variable_to_shape_map()
+        var_names = sorted([(var.name, var.name.split(':')[0]) for var in tf.global_variables()
+                            if var.name.split(':')[0] in saved_shapes])
+        restore_vars = []
+        name2var = dict(zip(map(lambda x: x.name.split(':')[0], tf.global_variables()), tf.global_variables()))
+        with tf.variable_scope('', reuse=True):
+            for var_name, saved_var_name in var_names:
+                curr_var = name2var[saved_var_name]
+                var_shape = curr_var.get_shape().as_list()
+                if var_shape == saved_shapes[saved_var_name]:
+                    restore_vars.append(curr_var)
+        return restore_vars
 
     def _load_config(self):
         try:
@@ -303,13 +327,32 @@ class TrainerController(object):
             # Instantiate model parameters
             if self.load_model:
                 self.logger.info('Loading Model...')
-                ckpt = tf.train.get_checkpoint_state(self.model_path)
-                if ckpt is None:
-                    self.logger.info('The model {0} could not be found. Make '
-                                     'sure you specified the right '
-                                     '--run-id'
-                                     .format(self.model_path))
-                saver.restore(sess, ckpt.model_checkpoint_path)
+                ckpt = None
+                if self.continueTrainWithPPOAfterBC == True:
+                    ckpt = tf.train.get_checkpoint_state(self.model_path_imitation)
+                    if ckpt is None:
+                        self.logger.info('The model {0} could not be found. Make sure you specified the right --run-id'.format(self.model_path_imitation))
+                else:
+                    ckpt = tf.train.get_checkpoint_state(self.model_path)
+                    if ckpt is None:
+                        self.logger.info('The model {0} could not be found. Make sure you specified the right '
+                                     '--run-id'.format(self.model_path))
+                if (self.newLoadMode == True):
+                    self.logger.info('nova versao do load')
+                    var_list = self.optimistic_restore_vars(ckpt.model_checkpoint_path) if ckpt != None else None
+
+                    sess.run(init)
+
+                    # for brain_name, trainer in self.trainers.items():
+                    #     val = sess.run(trainer.policy.model.value, feed_dict={trainer.policy.model.vector_in: [[0,0,0,2,2,0,0,0,0,1,0,1,1,0,1,0,48,0,0,2,2,0,0,0,16,1,2,1,1,2,1,2,4,16,16,0,0,0,2,0,18,1,2,1,1,2,1,2,0,2,0,0,0,0,2,128]]})
+                    #     print(val)
+
+                    # saver used only for restore.
+                    saverForRestore = tf.train.Saver(max_to_keep=self.keep_checkpoints, var_list=var_list)
+                    saverForRestore.restore(sess, ckpt.model_checkpoint_path)
+                else:
+                    self.logger.info('versao antiga do load')
+                    saver.restore(sess, ckpt.model_checkpoint_path)
             else:
                 sess.run(init)
             global_step = 0  # This is only for saving the model
@@ -370,8 +413,9 @@ class TrainerController(object):
                         trainer.add_experiences(curr_info, new_info,
                                                 take_action_outputs[brain_name])
                         trainer.process_experiences(curr_info, new_info)
-                        if trainer.is_ready_update() and self.train_model \
-                                and trainer.get_step <= trainer.get_max_steps:
+                        if trainer.is_ready_update() and self.train_model and trainer.get_step <= trainer.get_max_steps:
+                            if trainer.trainer_parameters['trainer'] == "imitationCustom":
+                                trainer.addStepInTempList(trainer.get_step)
                             # Perform gradient descent with experience buffer
                             trainer.update_policy()
                         # Write training statistics to Tensorboard.
@@ -383,8 +427,7 @@ class TrainerController(object):
                                     .lesson_num)
                         else:
                             trainer.write_summary(global_step)
-                        if self.train_model \
-                                and trainer.get_step <= trainer.get_max_steps:
+                        if self.train_model and trainer.get_step <= trainer.get_max_steps:
                             trainer.increment_step_and_update_last_reward()
                     global_step += 1
                     if global_step % self.save_freq == 0 and global_step != 0 \
@@ -406,3 +449,6 @@ class TrainerController(object):
         self.env.close()
         if self.train_model:
             self._export_graph()
+            if trainer.trainer_parameters['trainer'] == "imitationCustom":
+                for brain_name, trainer in self.trainers.items():
+                    trainer.saveTemps()

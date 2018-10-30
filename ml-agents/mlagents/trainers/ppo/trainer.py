@@ -8,6 +8,7 @@ from collections import deque
 
 import numpy as np
 import tensorflow as tf
+# import random
 
 from mlagents.envs import AllBrainInfo, BrainInfo
 from mlagents.trainers.buffer import Buffer
@@ -125,6 +126,14 @@ class PPOTrainer(Trainer):
             return [], [], [], None, None
 
         run_out = self.policy.evaluate(curr_brain_info)
+        # explore_random = random.randint(1, 10)
+        # if explore_random < 2:
+        #     temp_actions = [x[:] for x in run_out['action']]
+        #     for i, a in enumerate(run_out['action']):
+        #         new_val = random.randint(1, 8)
+        #         temp_actions[i] = [new_val]
+        #
+        #     run_out['action'] = temp_actions
         self.stats['value_estimate'].append(run_out['value'].mean())
         self.stats['entropy'].append(run_out['entropy'].mean())
         self.stats['learning_rate'].append(run_out['learning_rate'])
