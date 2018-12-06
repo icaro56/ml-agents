@@ -66,11 +66,81 @@ EspecialistaOnlyOneAuto:
     num_layers: 2
     hidden_units: 128
 
-Aprendiz:
+AprendizHybrid:
     trainer: ppo
     brain_to_imitate: EspecialistaOnlyOneAuto
     batches_per_epoch: 5
-    max_steps: 1000
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizBinary:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizICAART:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizBest:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizBinaryNormalized:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizZeroOrOne:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
     batch_size: 128
     buffer_size: 2048
     num_layers: 5
@@ -84,7 +154,7 @@ AprendizStatic:
     trainer: ppo
     brain_to_imitate: EspecialistaOnlyOneAuto
     batches_per_epoch: 5
-    max_steps: 1000
+    max_steps: 1000000
     batch_size: 128
     buffer_size: 2048
     num_layers: 5

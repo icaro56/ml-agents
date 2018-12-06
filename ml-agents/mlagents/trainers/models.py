@@ -134,6 +134,9 @@ class LearningModel(object):
                                      activation=tf.nn.elu, reuse=reuse, name="conv_1")
             conv2 = tf.layers.conv2d(conv1, 32, kernel_size=[4, 4], strides=[2, 2],
                                      activation=tf.nn.elu, reuse=reuse, name="conv_2")
+            # melhora bem se adicionado um terceiro conv
+            # conv3 = tf.layers.conv2d(conv2, 64, kernel_size=[2, 2], strides=[1, 1],
+            #                          activation=tf.nn.elu, reuse=reuse, name="conv_3")
             hidden = c_layers.flatten(conv2)
 
         with tf.variable_scope(scope + '/' + 'flat_encoding'):
