@@ -66,7 +66,7 @@ EspecialistaOnlyOneAuto:
     num_layers: 2
     hidden_units: 128
 
-AprendizHybrid:
+AprendizHybridDefault:
     trainer: ppo
     brain_to_imitate: EspecialistaOnlyOneAuto
     batches_per_epoch: 5
@@ -77,8 +77,32 @@ AprendizHybrid:
     hidden_units: 128
     time_horizon: 128
     use_recurrent: false
-    sequence_length: 64
+    sequence_length: 128
+    memory_size: 1024
+
+AprendizHybridLSTM_Optimal:
+    trainer: ppo
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 1024
+    num_layers: 1
+    hidden_units: 128
+    time_horizon: 64
+    use_recurrent: true
+    sequence_length: 32
     memory_size: 256
+
+AprendizHybrid:
+    trainer: ppo
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 1024
+    num_layers: 1
+    hidden_units: 128
+    time_horizon: 64
+    use_recurrent: true
+    sequence_length: 64
+    memory_size: 512
 
 AprendizBinary:
     trainer: ppo
