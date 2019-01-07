@@ -1,0 +1,87 @@
+default:
+    trainer: ppo
+    batch_size: 1024
+    beta: 5.0e-3
+    buffer_size: 10240
+    epsilon: 0.2
+    gamma: 0.99
+    hidden_units: 128
+    lambd: 0.95
+    learning_rate: 3.0e-4
+    max_steps: 5.0e4
+    memory_size: 256
+    normalize: false
+    num_epoch: 3
+    num_layers: 2
+    time_horizon: 64
+    sequence_length: 64
+    summary_freq: 1000
+    use_recurrent: false
+    use_curiosity: false
+    curiosity_strength: 0.01
+    curiosity_enc_size: 128
+
+TeacherHeuristicBrain:
+    max_steps: 10000
+    time_horizon: 128
+    batch_size: 128
+    buffer_size: 2048
+    num_epoch: 10
+    learning_rate: 1.0e-3
+    beta: 9.0e-3
+    normalize: false
+    num_layers: 2
+    hidden_units: 128
+
+StudentHybridBrain:
+    trainer: imitation
+    brain_to_imitate: TeacherHeuristicBrain
+    batches_per_epoch: 5
+    max_steps: 10000
+    batch_size: 128
+    buffer_size: 2048
+    learning_rate: 1.0e-3
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizHybridDefault:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 5
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 128
+    memory_size: 1024
+
+AprendizHybridLSTM_Optimal:
+    trainer: ppo
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 1024
+    num_layers: 1
+    hidden_units: 128
+    time_horizon: 64
+    use_recurrent: true
+    sequence_length: 32
+    memory_size: 256
+
+AprendizHybrid:
+    trainer: ppo
+    max_steps: 1000000
+    batch_size: 128
+    buffer_size: 1024
+    num_layers: 1
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: true
+    sequence_length: 64
+    memory_size: 256
