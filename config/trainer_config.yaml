@@ -21,6 +21,55 @@ default:
     curiosity_strength: 0.01
     curiosity_enc_size: 128
 
+PPO_HammermanBrain:
+    max_steps: 290000
+    time_horizon: 128
+    batch_size: 128
+    buffer_size: 2048
+    num_epoch: 10
+    learning_rate: 0.0003
+    normalize: false
+    num_layers: 2
+    hidden_units: 55
+
+MymicPPO_HammermanBrain:
+    max_steps: 290000
+    time_horizon: 128
+    batch_size: 128
+    buffer_size: 2048
+    num_epoch: 10
+    learning_rate: 0.0003
+    normalize: false
+    num_layers: 2
+    hidden_units: 55
+
+HammermanExpertAutoBrain:
+    max_steps: 10000
+    time_horizon: 128
+    time_horizon: 128
+    batch_size: 128
+    buffer_size: 2048
+    num_epoch: 10
+    learning_rate: 0.0003
+    normalize: false
+    num_layers: 2
+    hidden_units: 55
+    batches_per_epoch: 5
+
+BCPPO_HammermanBrain:
+    trainer: imitation
+    brain_to_imitate: HammermanExpertAutoBrain
+    max_steps: 10000
+    time_horizon: 128
+    batch_size: 128
+    buffer_size: 2048
+    num_epoch: 10
+    learning_rate: 0.0003
+    normalize: false
+    num_layers: 2
+    hidden_units: 55
+    batches_per_epoch: 5
+
 Especialista:
     max_steps: 5.0e5
     time_horizon: 128
