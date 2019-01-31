@@ -5,8 +5,8 @@ import math
 files_num = 5
 statistic_num = 6
 representation_num = 5
-foldername = "../chart_data/bomb_multi_brain/"
-isMultibrain = True;
+foldername = "../chart_data/bomb/"
+isMultibrain = False;
 
 json_datas = []
 json_mean_data = []
@@ -43,7 +43,7 @@ def getFinalFilename(statisticName, representationState, representationMultibrai
         return foldername + representationState + "/" + statisticName + "/run_bomberman_agents_" + representationState + "_" + str(sufix_num) + "-0-tag-Info_" + statisticName + ".json"
 
 
-for representation_index in range(2, representation_num + 1):
+for representation_index in range(1, representation_num + 1):
     REPRESENTATION_STATE = convertIntToRepresentation(representation_index)
     REPRESENTATION_MULTIBRAIN = convertIntToMultiBrainNameRepresentation(representation_index)
 

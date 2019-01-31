@@ -10,9 +10,8 @@ chart_data = []
 dataframes = []
 plots = []
 
-step_error_num = 50
+step_error_num = 100
 files_num = 5
-statistic_num = 6
 representation_num = 5
 statistic_value = 6
 
@@ -47,7 +46,7 @@ def convertIntToRepresentationLegends(value):
     elif value == 2: return "Flag Binária Norm."
     elif value == 3: return "Híbrida"
     elif value == 4: return "ICAART"
-    elif value == 5: return "Zero ou Um"
+    elif value == 5: return "ZeroOuUm"
     else: return "null"
 
 def convertRepresentationIntToColor(value):
@@ -71,12 +70,12 @@ for representation_index in range(2, representation_num+1):
         chart_data.append(temp)
 
 for i, value in enumerate(chart_data):
-    df = pd.DataFrame(value);
+    df = pd.DataFrame(value)
     dataframes.append(df)
 
 fig, ax = plt.subplots()
 
-mkfunc = lambda x, pos: '%1.0fM' % (x * 1e-6) if x >= 1e6 else '%1.0fK' % (x * 1e-3) if x >= 1e3 else '%1.0f' % x
+mkfunc = lambda x, pos: '%1.3fM' % (x * 1e-6) if x >= 1e6 else '%1.0fK' % (x * 1e-3) if x >= 1e3 else '%1.0f' % x
 formatter = FuncFormatter(mkfunc)
 ax.xaxis.set_major_formatter(formatter)
 
@@ -112,7 +111,7 @@ for index, value in enumerate(dataframes):
                 capsize=3,
                 capthick=3)
 
-plots_names = [convertIntToRepresentationLegends(i + 2) for i, x in enumerate(plots)]
+plots_names = [convertIntToRepresentationLegends(i+2) for i, x in enumerate(plots)]
 ax.legend(plots,
           plots_names,
           loc=0,
