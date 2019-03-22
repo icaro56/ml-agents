@@ -117,7 +117,7 @@ EspecialistaOnlyOneAuto:
 
 AprendizHybridLSTM_Optimal:
     trainer: ppo
-    max_steps: 1000000
+    max_steps: 2000000
     batch_size: 128
     buffer_size: 1024
     num_layers: 1
@@ -139,9 +139,9 @@ AprendizHybrid512:
     sequence_length: 64
     memory_size: 512
 
-AprendizHybridLSTMComPotenical:
+AprendizHybridLSTM_Alternative:
     trainer: ppo
-    max_steps: 1000000
+    max_steps: 2000000
     batch_size: 128
     buffer_size: 1024
     num_layers: 1
@@ -208,6 +208,76 @@ AprendizBinaryNormalized:
     memory_size: 256
 
 AprendizZeroOrOne:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 2000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 3
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+    
+AprendizHybridMultibrain:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 2000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 3
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 128
+    memory_size: 256
+
+AprendizBinaryMultibrain:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 2000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 3
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizICAARTMultibrain:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 2000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 3
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizBinaryNormalizedMultibrain:
+    trainer: ppo
+    brain_to_imitate: EspecialistaOnlyOneAuto
+    batches_per_epoch: 5
+    max_steps: 2000000
+    batch_size: 128
+    buffer_size: 2048
+    num_layers: 3
+    hidden_units: 128
+    time_horizon: 128
+    use_recurrent: false
+    sequence_length: 64
+    memory_size: 256
+
+AprendizZeroOrOneMultibrain:
     trainer: ppo
     brain_to_imitate: EspecialistaOnlyOneAuto
     batches_per_epoch: 5

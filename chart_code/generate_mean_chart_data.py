@@ -29,11 +29,11 @@ def convertIntToRepresentation(value):
     else: return "null"
 
 def convertIntToMultiBrainNameRepresentation(value):
-    if value == 1: return "Binary"
-    elif value == 2: return "BinaryNormalized"
-    elif value == 3: return "Hybrid"
-    elif value == 4: return "ICAART"
-    elif value == 5: return "ZeroOrOne"
+    if value == 1: return "BinaryMultibrain"
+    elif value == 2: return "BinaryNormalizedMultibrain"
+    elif value == 3: return "HybridMultibrain"
+    elif value == 4: return "ICAARTMultibrain"
+    elif value == 5: return "ZeroOrOneMultibrain"
     else: return "null"
 
 def getFinalFilename(statisticName, representationState, representationMultibrain, sufix_num):

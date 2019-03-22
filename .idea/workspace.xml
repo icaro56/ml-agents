@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94af9c9e-ac2f-4103-b3d3-5b2e0223efcf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/automate_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/automate_learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_code/generate_mean_chart_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/chart_code/generate_mean_chart_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_code/plot_charts.py" beforeDir="false" afterPath="$PROJECT_DIR$/chart_code/plot_charts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_1-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_1-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_2-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_2-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_3-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_3-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_4-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_4-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_5-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/cumulative_reward/run_bomberman_agents_binary_flag_5-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_1-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_1-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_2-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_2-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_3-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_3-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_4-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_4-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_5-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/entropy/run_bomberman_agents_binary_flag_5-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_1-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_1-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_2-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_2-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_3-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_3-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_4-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_4-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_5-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/episode_length/run_bomberman_agents_binary_flag_5-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_1-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_1-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_2-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_2-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_3-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_3-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_4-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_4-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_5-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/policy_loss/run_bomberman_agents_binary_flag_5-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_1-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_1-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_2-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_2-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_3-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_3-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_4-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_4-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_5-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_estimate/run_bomberman_agents_binary_flag_5-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_1-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_1-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_2-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_2-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_3-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_3-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_4-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_4-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_5-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_flag/value_loss/run_bomberman_agents_binary_flag_5-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_1-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_1-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_2-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_2-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_3-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_3-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_4-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_4-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_5-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/cumulative_reward/run_bomberman_agents_binary_normalized_5-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_1-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_1-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_2-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_2-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_3-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_3-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_4-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_4-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_5-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/entropy/run_bomberman_agents_binary_normalized_5-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_1-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_1-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_2-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_2-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_3-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_3-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_4-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_4-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_5-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/episode_length/run_bomberman_agents_binary_normalized_5-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_1-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_1-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_2-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_2-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_3-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_3-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_4-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_4-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_5-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/policy_loss/run_bomberman_agents_binary_normalized_5-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_1-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_1-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_2-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_2-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_3-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_3-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_4-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_4-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_5-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_estimate/run_bomberman_agents_binary_normalized_5-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_1-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_1-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_2-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_2-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_3-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_3-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_4-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_4-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_5-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/binary_normalized/value_loss/run_bomberman_agents_binary_normalized_5-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_1-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_1-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_2-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_2-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_3-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_3-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_4-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_4-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_5-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/cumulative_reward/run_bomberman_agents_hybrid_5-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_1-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_1-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_2-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_2-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_3-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_3-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_4-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_4-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_5-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/entropy/run_bomberman_agents_hybrid_5-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_1-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_1-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_2-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_2-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_3-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_3-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_4-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_4-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_5-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/episode_length/run_bomberman_agents_hybrid_5-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_1-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_1-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_2-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_2-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_3-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_3-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_4-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_4-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_5-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/policy_loss/run_bomberman_agents_hybrid_5-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_1-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_1-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_2-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_2-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_3-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_3-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_4-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_4-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_5-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_estimate/run_bomberman_agents_hybrid_5-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_1-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_1-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_2-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_2-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_3-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_3-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_4-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_4-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_5-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/hybrid/value_loss/run_bomberman_agents_hybrid_5-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_1-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_1-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_2-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_2-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_3-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_3-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_4-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_4-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_5-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/cumulative_reward/run_bomberman_agents_icaart_5-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_1-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_1-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_2-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_2-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_3-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_3-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_4-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_4-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_5-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/entropy/run_bomberman_agents_icaart_5-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_1-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_1-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_2-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_2-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_3-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_3-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_4-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_4-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_5-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/episode_length/run_bomberman_agents_icaart_5-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_1-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_1-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_2-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_2-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_3-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_3-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_4-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_4-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_5-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/policy_loss/run_bomberman_agents_icaart_5-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_1-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_1-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_2-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_2-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_3-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_3-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_4-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_4-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_5-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_estimate/run_bomberman_agents_icaart_5-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_1-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_1-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_2-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_2-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_3-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_3-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_4-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_4-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_5-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/icaart/value_loss/run_bomberman_agents_icaart_5-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_1-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_1-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_2-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_2-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_3-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_3-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_4-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_4-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_5-0-tag-Info_cumulative_reward.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/cumulative_reward/run_bomberman_agents_zero_or_one_5-0-tag-Info_cumulative_reward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_1-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_1-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_2-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_2-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_3-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_3-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_4-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_4-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_5-0-tag-Info_entropy.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/entropy/run_bomberman_agents_zero_or_one_5-0-tag-Info_entropy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_1-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_1-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_2-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_2-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_3-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_3-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_4-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_4-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_5-0-tag-Info_episode_length.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/episode_length/run_bomberman_agents_zero_or_one_5-0-tag-Info_episode_length.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_1-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_1-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_2-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_2-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_3-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_3-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_4-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_4-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_5-0-tag-Info_policy_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/policy_loss/run_bomberman_agents_zero_or_one_5-0-tag-Info_policy_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_1-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_1-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_2-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_2-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_3-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_3-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_4-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_4-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_5-0-tag-Info_value_estimate.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_estimate/run_bomberman_agents_zero_or_one_5-0-tag-Info_value_estimate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_1-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_1-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_2-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_2-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_3-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_3-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_4-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_4-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_5-0-tag-Info_value_loss.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb/zero_or_one/value_loss/run_bomberman_agents_zero_or_one_5-0-tag-Info_value_loss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/cumulative_reward/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/entropy/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/episode_length/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/policy_loss/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_estimate/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/run_bomberman_agents_all_1-0_AprendizBinaryNormalized-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/run_bomberman_agents_all_2-0_AprendizBinaryNormalized-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/run_bomberman_agents_all_3-0_AprendizBinaryNormalized-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/run_bomberman_agents_all_4-0_AprendizBinaryNormalized-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/binary_normalized/value_loss/run_bomberman_agents_all_5-0_AprendizBinaryNormalized-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/cumulative_reward/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/entropy/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/episode_length/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/policy_loss/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_estimate/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/run_bomberman_agents_all_1-0_AprendizHybrid-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/run_bomberman_agents_all_2-0_AprendizHybrid-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/run_bomberman_agents_all_3-0_AprendizHybrid-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/run_bomberman_agents_all_4-0_AprendizHybrid-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/hybrid/value_loss/run_bomberman_agents_all_5-0_AprendizHybrid-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/cumulative_reward/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/entropy/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/episode_length/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/policy_loss/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_estimate/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/run_bomberman_agents_all_1-0_AprendizICAART-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/run_bomberman_agents_all_2-0_AprendizICAART-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/run_bomberman_agents_all_3-0_AprendizICAART-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/run_bomberman_agents_all_4-0_AprendizICAART-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/icaart/value_loss/run_bomberman_agents_all_5-0_AprendizICAART-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/cumulative_reward/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_cumulative_reward.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/entropy/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_entropy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/episode_length/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_episode_length.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/policy_loss/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_policy_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_estimate/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_value_estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/mean.json" beforeDir="false" afterPath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/mean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/run_bomberman_agents_all_1-0_AprendizZeroOrOne-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/run_bomberman_agents_all_2-0_AprendizZeroOrOne-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/run_bomberman_agents_all_3-0_AprendizZeroOrOne-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/run_bomberman_agents_all_4-0_AprendizZeroOrOne-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart_data/bomb_multi_brain/zero_or_one/value_loss/run_bomberman_agents_all_5-0_AprendizZeroOrOne-tag-Info_value_loss.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/trainer_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/trainer_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/trainer_config_bc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/trainer_config_bc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/bc/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="33" column="101" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="101" />
+              <folding>
+                <element signature="e#822#1300#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/trainers/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="336" column="40" selection-start-line="336" selection-start-column="34" selection-end-line="336" selection-end-column="40" />
+              <folding>
+                <element signature="e#16392#17270#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainer_controller.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="252" column="8" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="8" />
+              <folding>
+                <element signature="e#125#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_check_agents</find>
+      <find>create_visual_encoder</find>
+      <find>create_re</find>
+      <find>Grid</find>
+      <find>time_horizon</find>
+      <find>fig</find>
+      <find>self.load_model</find>
+      <find>memory_size</find>
+      <find>graph_scope</find>
+      <find>use_recurrent: true</find>
+      <find>sequence_length</find>
+      <find>num_epoch</find>
+      <find>learning_rate</find>
+      <find>statistic_num</find>
+      <find>statistic_value</find>
+      <find>imitation</find>
+      <find>num_layers</find>
+      <find>dropo</find>
+      <find>evaluate</find>
+      <find>dropout</find>
+      <find>update(</find>
+      <find>self.dropout_rate</find>
+      <find>evaluate(</find>
+      <find>beta</find>
+      <find>convertRepresentationIntToColor</find>
+      <find>imitationCustom</find>
+      <find>continueTrainWithPPOAfterBC</find>
+      <find>start_learning</find>
+      <find>use_recurrent</find>
+      <find>newLoadMode</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/teste-remover.py" />
+        <option value="$PROJECT_DIR$/train_multiagent.py" />
+        <option value="$PROJECT_DIR$/gym-unity/gym_unity/envs/unity_env.py" />
+        <option value="C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/deepq/experiments/train_unity.py" />
+        <option value="$PROJECT_DIR$/DeepQLearning.py" />
+        <option value="$PROJECT_DIR$/teste_remover.py" />
+        <option value="$PROJECT_DIR$/ml-agents/mlagents/trainers/models.py" />
+        <option value="$PROJECT_DIR$/ml-agents/mlagents/trainers/learn.py" />
+        <option value="$PROJECT_DIR$/ml-agents/mlagents/trainers/ppo/trainer.py" />
+        <option value="$PROJECT_DIR$/ml-agents/mlagents/trainers/bc_custom/trainer.py" />
+        <option value="$PROJECT_DIR$/config/trainer_config.yaml" />
+        <option value="$PROJECT_DIR$/chart_code/generate_mean_chart_data_lstm.py" />
+        <option value="$PROJECT_DIR$/chart_code/plot_charts_lstm.py" />
+        <option value="$PROJECT_DIR$/config/trainer_config_bc.yaml" />
+        <option value="$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py" />
+        <option value="$PROJECT_DIR$/automate_learn.py" />
+        <option value="$PROJECT_DIR$/chart_code/generate_mean_chart_data.py" />
+        <option value="$PROJECT_DIR$/chart_code/plot_charts.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-agents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-agents" type="462c0819:PsiDirectoryNode" />
+              <item name="mlagents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-agents" type="462c0819:PsiDirectoryNode" />
+              <item name="mlagents" type="462c0819:PsiDirectoryNode" />
+              <item name="trainers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-agents" type="462c0819:PsiDirectoryNode" />
+              <item name="mlagents" type="462c0819:PsiDirectoryNode" />
+              <item name="trainers" type="462c0819:PsiDirectoryNode" />
+              <item name="bc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ml-agents-fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-agents-fork" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-agents" type="462c0819:PsiDirectoryNode" />
+              <item name="mlagents" type="462c0819:PsiDirectoryNode" />
+              <item name="trainers" type="462c0819:PsiDirectoryNode" />
+              <item name="ppo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="E:/backup/ml-agents" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\ml-agents-fork\chart_code" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.plot_charts">
+    <configuration name="automate_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-agents-fork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_learn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="generate_mean_chart_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-agents-fork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart_code/generate_mean_chart_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="generate_mean_chart_data_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-agents-fork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart_code/generate_mean_chart_data_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plot_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-agents-fork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart_code/plot_charts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plot_charts_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-agents-fork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart_code/plot_charts_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.automate_learn" />
+      <item itemvalue="Python.generate_mean_chart_data" />
+      <item itemvalue="Python.plot_charts" />
+      <item itemvalue="Python.generate_mean_chart_data_lstm" />
+      <item itemvalue="Python.plot_charts_lstm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plot_charts" />
+        <item itemvalue="Python.automate_learn" />
+        <item itemvalue="Python.plot_charts_lstm" />
+        <item itemvalue="Python.generate_mean_chart_data_lstm" />
+        <item itemvalue="Python.generate_mean_chart_data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94af9c9e-ac2f-4103-b3d3-5b2e0223efcf" name="Default" comment="" />
+      <created>1540936786200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540936786200</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1904762" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2628135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3478735" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/ppo2/ppo2.py</url>
+          <line>413</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gym-unity/gym_unity/envs/unity_env.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chart_code/plot_charts.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chart_code/plot_charts.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chart_code/generate_mean_chart_data.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chart_code/generate_mean_chart_data_lstm.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chart_code/plot_charts_lstm.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>len(x_values)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n_agents</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_multiagent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste-remover.py" />
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/envs/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/common/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="351" column="6" selection-start-line="351" selection-start-column="6" selection-end-line="351" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/common/vec_env/vec_normalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/ppo2/ppo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="406" selection-start-line="406" selection-end-line="406" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/deepq/experiments/train_unity.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/stable_baselines/common/vec_env/base_vec_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym-unity/gym_unity/envs/unity_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepQLearning.py" />
+    <entry file="file://$PROJECT_DIR$/UnityVecEnv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_multiagent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste_remover.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="514" column="4" selection-start-line="514" selection-start-column="4" selection-end-line="514" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/trainers/trainer_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/envs/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="493" column="8" selection-start-line="493" selection-start-column="8" selection-end-line="493" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/envs/brain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/bc_custom/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="184" column="44" selection-start-line="184" selection-start-column="44" selection-end-line="184" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/trainers/bc/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/marathon_envs_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1191" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/policy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/bc/policy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/bc/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_code/generate_mean_chart_data_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_code/plot_charts_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/trainer_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="157" column="22" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/trainers/ppo/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="183" column="41" selection-start-line="183" selection-start-column="33" selection-end-line="183" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="139" selection-start-line="10" selection-start-column="139" selection-end-line="10" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/trainer_config_bc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/ppo/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="171" column="40" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_code/generate_mean_chart_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_code/plot_charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/ppo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1739#1875#0" />
+            <element signature="e#2009#2353#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/bc/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="33" column="101" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="101" />
+          <folding>
+            <element signature="e#822#1300#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mlagents/trainers/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="336" column="40" selection-start-line="336" selection-start-column="34" selection-end-line="336" selection-end-column="40" />
+          <folding>
+            <element signature="e#16392#17270#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-agents/mlagents/trainers/trainer_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="252" column="8" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="8" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

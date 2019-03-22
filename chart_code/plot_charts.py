@@ -11,9 +11,12 @@ dataframes = []
 plots = []
 
 step_error_num = 100
+step_ticks_num = 200
+
 files_num = 5
 representation_num = 5
-statistic_value = 6
+
+statistic_value = 1
 
 def convertIntToStatistic(value):
     if value == 1: return "cumulative_reward"
@@ -25,7 +28,7 @@ def convertIntToStatistic(value):
     else: return "null"
 
 def convertIntToStatisticView(value):
-    if value == 1: return "Recompensa Acumulada"
+    if value == 1: return "Cumulative Reward"
     elif value == 2: return "Entropia"
     elif value == 3: return "Tamanho do Episódio"
     elif value == 4: return "Loss da Política"
@@ -42,11 +45,11 @@ def convertIntToRepresentation(value):
     else: return "null"
 
 def convertIntToRepresentationLegends(value):
-    if value == 1: return "Flag Binária"
-    elif value == 2: return "Flag Binária Norm."
-    elif value == 3: return "Híbrida"
+    if value == 1: return "Binary Flag"
+    elif value == 2: return "Norm. Binary Flag"
+    elif value == 3: return "Hybrid"
     elif value == 4: return "ICAART"
-    elif value == 5: return "ZeroOuUm"
+    elif value == 5: return "ZeroOrOne"
     else: return "null"
 
 def convertRepresentationIntToColor(value):
@@ -62,9 +65,9 @@ def convertRepresentationIntToColor(value):
 STATISTIC_NAME = convertIntToStatistic(statistic_value)
 STATISTIC_NAME_TO_VIEW = convertIntToStatisticView(statistic_value)
 
-for representation_index in range(2, representation_num+1):
+for representation_index in range(1, representation_num+1):
     REPRESENTATION_STATE = convertIntToRepresentation(representation_index)
-    with open("../chart_data/bomb_multi_brain/" + REPRESENTATION_STATE + "/" + STATISTIC_NAME + "/mean.json") as datafile:
+    with open("../chart_data/bomb/" + REPRESENTATION_STATE + "/" + STATISTIC_NAME + "/mean.json") as datafile:
         temp = json.load(datafile)
         # temp.insert(0, [0.0, 0, 0.0])
         chart_data.append(temp)
@@ -78,6 +81,7 @@ fig, ax = plt.subplots()
 mkfunc = lambda x, pos: '%1.3fM' % (x * 1e-6) if x >= 1e6 else '%1.0fK' % (x * 1e-3) if x >= 1e3 else '%1.0f' % x
 formatter = FuncFormatter(mkfunc)
 ax.xaxis.set_major_formatter(formatter)
+first_chart = True
 
 for index, value in enumerate(dataframes):
     x_values = value.iloc[:, 1]
@@ -85,6 +89,10 @@ for index, value in enumerate(dataframes):
 
     # fiz uma especie de linspace com o dataframe
     # x_smooth = np.linspace(x_values.min(), x_values.max(), 50)
+
+    if first_chart == True:
+        first_chart = False
+        x_dataframe_ticks = value.iloc[::step_ticks_num, 1].append(value.iloc[[-1], 1])
 
     x_dataframe_1 = value.iloc[::step_error_num, 1].append(value.iloc[[-1], 1])
     # y_dataframe_1 = value.iloc[::step_error_num, 2].append(value.iloc[[-1], 2])
@@ -111,21 +119,22 @@ for index, value in enumerate(dataframes):
                 capsize=3,
                 capthick=3)
 
-plots_names = [convertIntToRepresentationLegends(i+2) for i, x in enumerate(plots)]
+plots_names = [convertIntToRepresentationLegends(i+1) for i, x in enumerate(plots)]
 ax.legend(plots,
           plots_names,
           loc=0,
-          prop={'size': 12},
+          prop={'size': 18},
           fancybox=True, framealpha=1.0)
 
 # ax.set(title='Comparação de ' + STATISTIC_NAME_TO_VIEW)
 
 # fig.suptitle('Comparação de ' + STATISTIC_NAME_TO_VIEW, fontsize=18)
-ax.set_xlabel('Número de Iterações', fontsize=16)
-ax.set_ylabel(STATISTIC_NAME_TO_VIEW, fontsize=16)
+ax.set_xlabel('Number of steps', fontsize=24)
+ax.set_ylabel(STATISTIC_NAME_TO_VIEW, fontsize=24)
 
 ax.grid()
-plt.xticks(x_dataframe_1)
+plt.xticks(x_dataframe_ticks, fontsize=18)
+plt.yticks(fontsize=18)
 
 def on_resize(event):
     fig.tight_layout()

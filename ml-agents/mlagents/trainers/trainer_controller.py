@@ -68,9 +68,8 @@ class TrainerController(object):
                 '/{docker_target_name}/{trainer_config_path}'.format(
                     docker_target_name=docker_target_name,
                     trainer_config_path = trainer_config_path)
-            self.model_path = '/{docker_target_name}/models/{run_id}'.format(
-                docker_target_name=docker_target_name,
-                run_id=run_id)
+            self.model_path = '/{docker_target_name}/models/{run_id}'.format(docker_target_name=docker_target_name, run_id=run_id)
+            self.model_path_imitation = '/{docker_target_name}/models/bc_train'.format(docker_target_name=docker_target_name, run_id=run_id)
             if env_path is not None:
                 env_path = '/{docker_target_name}/{env_name}'.format(
                     docker_target_name=docker_target_name, env_name=env_path)
@@ -101,7 +100,7 @@ class TrainerController(object):
                                     seed=self.seed,
                                     docker_training=self.docker_training,
                                     no_graphics=no_graphics)
-        self.newLoadMode = False
+        self.newLoadMode = True
         self.continueTrainWithPPOAfterBC = False
         if env_path is None:
             self.env_name = 'editor_' + self.env.academy_name
